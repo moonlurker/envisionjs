@@ -1,0 +1,84 @@
+/* Dimensions */
+
+div#content {
+  margin: 0px auto;
+  width: 800px;
+}
+div#demo {
+  height: 417px
+}
+.envision-roadmap {
+  width: 800px;
+}
+.envision-roadmap-timeline .envision-component {
+  height : 500px;
+}
+.envision-roadmap-connection .envision-component {
+  height: 16px;
+}
+.envision-roadmap-summary .envision-component {
+  height : 70px;
+  margin-top: -2px;
+}
+
+/* Bubble Borders */
+.envision-roadmap-timeline {
+/*  border: 1px solid #B6D9FF;
+  background: #fff;*/
+}
+.envision-roadmap-timeline {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #d9d9d9; 
+  background : #ebebeb; 
+}
+
+/* Connection overlay */
+.envision-roadmap-connection canvas {
+  z-index: 10;
+  background: #fff;
+}
+.envision-roadmap-connection canvas object {
+  position: absolute;
+  top: 0px;
+}
+
+/* Main Roadmap Axis Labels */
+
+.envision-roadmap-timeline .flotr-grid-label {
+  font-weight:bold;
+}
+
+.envision-roadmap-timeline .flotr-grid-label-y,
+.envision-roadmap-timeline .flotr-grid-label-x {
+  margin-left: 4px;
+  z-index: 99;
+}
+.envision-roadmap-timeline .flotr-grid-label.first {
+/*  margin-top: -6px;*/
+}
+.envision-roadmap-timeline .flotr-grid-label.last {
+/*  margin-top: 6px; */
+}
+
+/* Zoom Axis Labels */
+.envision-roadmap-summary .flotr-grid-label {
+  margin-top: 3px;
+}
+
+/* Mouse Tracker */
+.envision-roadmap-timeline .flotr-mouse-value {
+	font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .envision-roadmap {
+    width: 100%;
+  }
+  .envision-roadmap-timeline .envision-component {
+    height: 120px;
+  }
+  .envision-roadmap-summary .envision-component {
+    height: 40px;
+  }
+}

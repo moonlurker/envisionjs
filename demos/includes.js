@@ -58,6 +58,7 @@ yepnope([
   '../js/templates/namespace.js',
   '../js/templates/Finance.js',
   '../js/templates/TimeSeries.js',
+  '../js/templates/Roadmap.js',
   '../js/templates/Zoom.js',
   '../js/actions/namespace.js',
   '../js/actions/hit.js',
