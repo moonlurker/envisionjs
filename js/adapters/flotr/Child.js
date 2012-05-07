@@ -263,7 +263,8 @@ Child.prototype = {
           options = {};
 
         if (x) {
-          options.xaxis = {
+		// hack so that the x2axis is tracked along with the xaxis from the connected component.
+          options.xaxis = options.x2axis = {
             min : x.min,
             max : x.max
           };
@@ -328,7 +329,8 @@ Child.prototype = {
           options = {};
 
         if (x) {
-          options.xaxis = {
+		// hack so that the x2axis is tracked along with the xaxis from the connected component.
+          options.xaxis = options.x2axis = {
             min : x.min,
             max : x.max
           };
