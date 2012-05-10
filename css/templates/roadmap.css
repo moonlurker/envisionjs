@@ -71,12 +71,15 @@ div#demo {
 	font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  div#demo {
+    height: 253px;
+  }
   .envision-roadmap {
     width: 100%;
   }
   .envision-roadmap-timeline .envision-component {
-    height: 120px;
+//    height: 400px;
   }
   .envision-roadmap-summary .envision-component {
     height: 40px;

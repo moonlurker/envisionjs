@@ -6,7 +6,6 @@ var roadmapData= [
     ,{"date":"2012/09/03","title":"Labor Day"}
     ,{"date":"2012/11/22","title":"Thanksgiving"}
     ,{"date":"2012/12/25","title":"Christmas"}
-    ,{"date":"2012/12/31","title":"New Year's\nEve"}
   ]
   ,[
     {"rowTitle":"Events"}
